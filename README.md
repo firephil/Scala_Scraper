@@ -1,0 +1,1 @@
+## Web Scraping using [Scala 3](https://www.scala-lang.org/) & [Jsoup](https://jsoup.org/)
