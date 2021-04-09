@@ -12,3 +12,12 @@ log("%s\n\t%s",
     headline.attr("title"), headline.absUrl("href"));
 }
 ```
+
+```scala
+@main
+def run() =
+    println("Hello world!")
+    val doc = Jsoup.connect("https://en.wikipedia.org/").get
+    val newsHeadlines = doc.select("#mp-itn b a")
+    println(newsHeadlines)
+```
