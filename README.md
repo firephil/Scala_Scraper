@@ -3,6 +3,7 @@
 ### Example
 Fetch the Wikipedia homepage, parse it to a DOM, and select the headlines from the In the news section into a list of Elements.
 
+### Java
 ```java
 Document doc = Jsoup.connect("https://en.wikipedia.org/").get();
 log(doc.title());
@@ -12,7 +13,7 @@ log("%s\n\t%s",
     headline.attr("title"), headline.absUrl("href"));
 }
 ```
-
+### Scala
 ```scala
 @main
 def run() =
