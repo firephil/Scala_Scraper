@@ -1,32 +1,19 @@
 import org.jsoup.Jsoup
-
 import org.jsoup.internal.StringUtil
-
 import org.jsoup.helper.Validate
-
 import org.jsoup.nodes.Document
-
 import org.jsoup.nodes.Element
-
 import org.jsoup.nodes.Node
-
 import org.jsoup.nodes.TextNode
-
 import org.jsoup.select.Elements
-
 import org.jsoup.select.NodeTraversor
-
 import org.jsoup.select.NodeVisitor
-
 import java.io.IOException
-
 import HtmlToPlainText._
-
 //remove if not needed
 import scala.jdk.CollectionConverters._
 
 // TODO Convert Java Collections to Scala Collections
-
 // Converted from Java Using --> http://javatoscala.com/
 
 object HtmlToPlainText {
